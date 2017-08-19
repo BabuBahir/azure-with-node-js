@@ -24,7 +24,7 @@ connection.on('connect', function(err)
        }
     else
        {
-            // do nothing....... queryDatabase()
+           queryDatabase()
        }
    }
  );
